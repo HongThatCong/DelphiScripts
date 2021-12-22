@@ -3,8 +3,8 @@
 //=============================================================================
 //--- IDA Pro v7.X IDC Script File
 //      File: DelphiStrScan.idc
-//   Authors: HTC - VinCSS (a member of Vingroup)
-//   Version: 0.1
+//   Authors: HTC (TQN)
+//   Version: 0.2
 //   Purpose: Scan all sections and find old, new constants Long String,
 //            AnsiString and Unicode String in Delphi/C++Builder binaries.
 //            Delphi compiler puts constant strings in .text, CODE section,
@@ -13,6 +13,7 @@
 //   History:
 //       0.1: 20/06/2021 - First release
 //       0.2: 23/12/2021 - Add scanning Pascal strings
+//  License: Beerware :)
 //=============================================================================
 
 /*
